@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Математика</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/math.ico" type="image/x-icon">
 </head>
 
@@ -31,17 +31,17 @@
         <div class="download">
             <div class="down">
                 <input class="downloadlink" type="button" value="WINDOWS" onmousedown="viewDiv()">
-                <a class="downloadlink" href="#"> LINUX </a>
-                <a class="downloadlink" href="#"> MAC OS </a>
+                <input class="downloadlink" type="button" value="LINUX" onmousedown="viewLINUX()">
+                <input class="downloadlink" type="button" value="MAC OS" onmousedown="viewMACOS()">
+                
                 <div id="os">
                     <select id="select" name="OC" required="required">
                         <option value="">Виберіть Windows</option>
                         <option value="1">Windows 7</option>
-                        <option value="2">Windows 8.1</option>
-                        <option value="3">Windows 10</option>
-                        <option value="4">Windows 11</option>
+                        <option value="2">Windows 8.1/10/11 </option>
+                        
                     </select>
-                    <input class="downloadprogram" type="button" value="Скачати" onclick="downloadok()">
+                    <input class="downloadprogram" type="button" value="Завантажити" onclick="downloadok()">
                 </div>
             </div>
         </div>
@@ -56,22 +56,5 @@
         </footer>
     </div>
 </body>
-<script>
-function viewDiv() {
-    document.getElementById("os").style.display = "block";
-};
-
-function downloadok() {
-    var select = document.getElementById("select");
-    var index = select.value;
-    if (index == 1)
-        window.location = "files/7.exe";
-    else if (index == 2) window.location = "files/8.1.exe";
-    else if (index == 3) window.location = "files/10.exe";
-    else if (index == 4) window.location = "files/11.exe";
-
-
-}
-</script>
-
+<script src="js/script.js"></script>
 </html>
