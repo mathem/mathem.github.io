@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: #fff;
+	
+      
+}
+.headers
+{
+	
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+    background: rgba(255, 255, 255, 1.0);
+    height: 37px;
+    max-width: 1920px;
+    min-width: 1024px;
+    
+}
+
+.contain{
+	width: 100%;
+	
+	margin: 0 auto;
+	
+	
+}
+.logo
+{
+	height: 35px;
+	width: 35px;
+	margin-left: 10px;
+	
+}
+.nav{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-right: 20px ;
+}
+.navlink{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 5px;
+	text-decoration: none;
+	color: blue;
+	transition: color .2s linear;
+	font-weight: 700;
+	padding: 10px 8px;
+	
+}
+.navlink:hover{
+	 background-color: #ddd;
+     color: black;
+	 border-bottom: 2px solid blue;
+}
+
+
+.header_inner{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 400px;
+	
+	background: url('fons.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.intro_title
+{
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+
+}
+.intro_subtitle
+{
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	margin-top: 10px;
+
+}
+
+.text1{
+	color: blue;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 700;
+}
+.text2{
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	font-style: italic;
+	margin-top: 10px;
+	font-weight: 100;
+	font-size: 20px;
+}
+.text3{
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	font-style: italic;
+	margin-top: 10px;
+	font-weight: 100;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.text4{
+	color: black;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 20px;
+	text-align: right;
+	margin-right: 30px;
+	
+	
+}
+.okno{
+	width: 100%;
+      min-width: 1024px;
+      max-width: 1920px;
+
+}
+.img1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.otup{
+	margin-top: 15px;
+}
+footer{
+	  
+    
+    padding: 5px;
+    background-color: white;
+    height: 37px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.insta{
+	height: 31px;
+	margin-top: 3px;
+
+	
+}
+.soc{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 37px;
+}
+.otups
+{
+	margin-left: 20px;
+}
+
+
+.downloadlink{
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+	padding: 3px;
+	padding-right: 20px;
+	padding-left: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 30px;
+	border: 3px solid blue;
+	margin-right: 50px;
+    transition: color .5s linear;
+    height: 700;
+}
+.downloadlink:hover{
+	background-color: white;
+	color: black;
+
+}
+.download
+{
+	display: table;
+    
+	width: 100%;
+	height: 300px;
+	
+}
+.down{
+    display: table-cell;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+    vertical-align: middle;
+}
