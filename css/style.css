@@ -322,3 +322,21 @@ footer {
     color: black;
     cursor: pointer;
 }
+.help
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 370px;
+
+}
+
+.avtorpng
+{
+    width: 200px;
+    height: auto;
+}
+.info 
+{
+    height: 300px;
+   
+}
