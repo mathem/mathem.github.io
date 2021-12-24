@@ -516,7 +516,7 @@ font-family: "Times New Roman";
 
 .textavtor {
     display: inline-block;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 100;
     margin-left: 15px;
     margin-bottom: 5px;
@@ -528,7 +528,7 @@ margin-right: 15px;
 .textavtors {
     display: inline-block;
 
-    min-width: 600px;
+    min-width: 500px;
 }
 
 .textactivate {
