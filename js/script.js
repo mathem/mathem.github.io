@@ -16,11 +16,5 @@ function viewLINUX() {
 function viewMACOS() {
     document.getElementById("os").style.display = "none";
 };
-function viewform() {
-    document.getElementById("back_form").style.display = "flex";
-};
-function delform() {
-    document.getElementById("back_form").style.display = "none";
-    
-};
+
 
