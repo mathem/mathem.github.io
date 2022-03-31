@@ -1,0 +1,147 @@
+//main: ../style.less
+.header{
+    padding: 1rem 0;
+    position: relative;
+    @media @tablet{
+        background-color: white;
+        position: fixed;
+        top:0;
+        right: 0;
+        left: 0;
+        z-index: 1000;
+    }
+     border-bottom: 2px solid red;
+     @media(max-width:900px){
+        padding: 12px 0px;
+    
+    }
+    @media(max-width:320px){
+        padding: 10px 0px;
+    
+    }
+   
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.user{
+    display: flex;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    img{
+    width: 30px;
+    height: 30px; 
+    }  
+    @media(max-width:320px){
+        width: 20px;
+    height: 20px;
+    img{
+    width: 20px;
+    height: 20px; 
+    }  
+    }
+    @media(max-width:900px){
+        width: 25px;
+    height: 25px;
+    img{
+    width: 25px;
+    height: 25px; 
+    }  
+    }
+    
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+        @media @tablet{
+            width: 100%;
+            height: auto;
+            padding: 1rem;
+            position: absolute;
+            top:100%;
+            right: 0;
+            z-index: 1000;
+            display: none;
+            background-color: white;
+            text-align: center;
+           @keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+            &.show {
+                display: flex;
+                opacity: 0;
+  animation: ani 0.8s forwards;
+             }
+            }
+}
+.nav__link{
+    
+    padding: 0.33333333333333rem 1rem;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: red;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    
+    &:hover{ 
+       border-color: red; 
+        transition: 0.5s;  
+    }  
+    @media @tablet{
+        width: 100%;
+        margin-left: 0;
+        border: none;
+        padding: 0.5rem 0.5rem;
+  }
+
+}
+.burger{
+     width: 30px;
+    height: 30px;
+    img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    padding: 0;
+    border:0;
+    background: none;
+    display: none;
+    @media @tablet{
+        display: block;
+    }
+    @media(max-width:320px){
+        width: 20px;
+    height: 20px;
+    img{
+    width: 20px;
+    height: 20px; 
+    }  
+    }
+    @media(max-width:900px){
+        width: 25px;
+    height: 25px;
+    img{
+    width: 25px;
+    height: 25px; 
+    }  
+    }
+}
+.burger__icon{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+     
+}
+
+

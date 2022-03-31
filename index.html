@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Математика</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="user">
+                    <div class="avatar">
+                        <a href="index.html"><img src="img/icon.png"></a>
+                    </div>
+                </div>
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#">про автора</a>
+                    <a class="nav__link" href="#">контакти</a>
+                </nav>
+                <button class="burger" type="button" id="navtoggle">
+                    <img id="ui" class="burger__icon" src="img/menu.svg">
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="intro">
+        <div class="container">
+            <div class="intro_inner">
+                <img class="img" src="img/menu_program.png">
+                <div class="margin">
+                    <p class="text1">Вітаю тебе у світі математики! </p>
+                    <div class="button">
+                        <a class="button_1" href="#">
+                            ЗАВАНТАЖИТИ
+                        </a>
+                        <a class="button_2" href="#rt">
+                            Дізнатися більше
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div id="rt">
+                <p class="text2">Дізнайся більше</p>
+                <div class="text3">Повність безкоштовне програмне забезпечення для навчання дітей з математики. Розраховане для дітей початкової школи. Детальніше дивіться у відео. </div>
+                <div class="video">
+                    <div class="video_inner">
+                        
+                        <video  controls="controls" poster="video/duel.jpg">
+                            <source src="video/1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                        </video>
+                    </div>
+                    <div class="video_inner">
+                        <video  controls="controls" poster="video/duel_1.jpg">
+                            <source src="video/1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/nav.js"></script>
+
+</html>
